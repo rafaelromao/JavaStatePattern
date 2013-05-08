@@ -8,8 +8,8 @@
     <file path="/Dummy.txt" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368046735823" ignored="false" />
     <file path="/fragment.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368051506424" ignored="false" />
     <file path="/OnOffTest.groovy" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368050903439" ignored="false" />
-    <file path="/OnOffTest.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368051421126" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368051547954" ignored="false" />
+    <file path="/OnOffTest.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368052574346" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368052761377" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,9 +116,14 @@
       <file leaf-file-name="OnOffTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/test/OnOffTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="22" selection-start="214" selection-end="214" vertical-scroll-proportion="0.3705722">
+            <state line="69" column="22" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.35967302">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#testOnIsOn#0;class#OnOffTest#0" expanded="false" />
+                <element signature="method#testOffIsOff#0;class#OnOffTest#0" expanded="false" />
+                <element signature="method#testOnIsNotOff#0;class#OnOffTest#0" expanded="false" />
+                <element signature="method#testOnOffSwitches#0;class#OnOffTest#0" expanded="false" />
+                <element signature="method#testSwitchStatement#0;class#OnOffTest#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -329,24 +334,7 @@
       <recent name="C:\Users\Rafael\Documents\GitHub\JavaStatePattern\src\com\rafaelromao\javaStatePattern\poc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OnOffTest.testOnIsOn">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.rafaelromao.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaStatePattern" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.OnOffTest.testStates">
     <configuration default="false" name="OnOffTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="JavaStatePattern" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -376,6 +364,72 @@
       <option name="PACKAGE_NAME" value="com.rafaelromao.javaStatePattern.javaEnum.test" />
       <option name="MAIN_CLASS_NAME" value="com.rafaelromao.javaStatePattern.javaEnum.test.OnOffTest" />
       <option name="METHOD_NAME" value="testOnIsOn" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="OnOffTest.testOnOffSwitches" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="JavaStatePattern" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.rafaelromao.javaStatePattern.javaEnum.test" />
+      <option name="MAIN_CLASS_NAME" value="com.rafaelromao.javaStatePattern.javaEnum.test.OnOffTest" />
+      <option name="METHOD_NAME" value="testOnOffSwitches" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="OnOffTest.testSwitchStatement" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="JavaStatePattern" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.rafaelromao.javaStatePattern.javaEnum.test" />
+      <option name="MAIN_CLASS_NAME" value="com.rafaelromao.javaStatePattern.javaEnum.test.OnOffTest" />
+      <option name="METHOD_NAME" value="testSwitchStatement" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="OnOffTest.testStates" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="JavaStatePattern" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.rafaelromao.javaStatePattern.javaEnum.test" />
+      <option name="MAIN_CLASS_NAME" value="com.rafaelromao.javaStatePattern.javaEnum.test.OnOffTest" />
+      <option name="METHOD_NAME" value="testStates" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -426,15 +480,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.OnOffTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.OnOffTest.testOnIsOn" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.OnOffTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.OnOffTest.testOnIsOn" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.OnOffTest.testOnOffSwitches" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.OnOffTest.testSwitchStatement" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.OnOffTest.testStates" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.OnOffTest.testOnIsOn" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.OnOffTest.testStates" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.OnOffTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.OnOffTest.testSwitchStatement" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.OnOffTest.testOnOffSwitches" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.OnOffTest.testOnIsOn" />
       </list>
     </recent_temporary>
   </component>
@@ -482,7 +541,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24846625" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -614,9 +673,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/test/OnOffTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="214" selection-end="214" vertical-scroll-proportion="0.3705722">
+        <state line="69" column="22" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.35967302">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#testOnIsOn#0;class#OnOffTest#0" expanded="false" />
+            <element signature="method#testOffIsOff#0;class#OnOffTest#0" expanded="false" />
+            <element signature="method#testOnIsNotOff#0;class#OnOffTest#0" expanded="false" />
+            <element signature="method#testOnOffSwitches#0;class#OnOffTest#0" expanded="false" />
+            <element signature="method#testSwitchStatement#0;class#OnOffTest#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -4,87 +4,81 @@ import com.rafaelromao.javaStatePattern.poc.OnOff;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.List;
+
 public class OnOffTest {
     @Test
     public void testOnIsOn() throws Exception
     {
         OnOff on1 = OnOff.on();
         OnOff on2 = OnOff.on();
-        Assert.assertEquals(on1, on2);
+        Assert.assertSame(on1, on2);
     }
-}
 
-/*
-    [Test]
-    public void TestOffIsOff()
+    @Test
+    public void testOffIsOff()
     {
-        var off1 = OnOff.Off;
-        var off2 = OnOff.Off;
-        Assert.AreEqual(off1, off2);
+        OnOff off1 = OnOff.off();
+        OnOff off2 = OnOff.off();
+        Assert.assertSame(off1, off2);
     }
-    [Test]
-    public void TestOnIsNotOff()
+    @Test
+    public void testOnIsNotOff()
     {
-        var on = OnOff.On;
-        var off = OnOff.Off;
-        Assert.AreNotEqual(on, off);
+        OnOff on = OnOff.on();
+        OnOff off = OnOff.off();
+        Assert.assertNotSame(on, off);
     }
-    [Test]
-    public void TestOnOffSwitches()
-    {
-        var on = OnOff.On;
-        var off = OnOff.Off;
 
-        var onSwitched = on.Switch();
-        var offSwitched = off.Switch();
-
-        Assert.AreEqual(on, offSwitched);
-        Assert.AreEqual(off, onSwitched);
-    }
-    [Test]
-    public void TestSwitchStatement()
+    @Test
+    public void testOnOffSwitches()
     {
-        var on = OnOff.On;
-        switch (on.Value)
+        OnOff on = OnOff.on();
+        OnOff off = OnOff.off();
+
+        OnOff onSwitched = on.swtch();
+        OnOff offSwitched = off.swtch();
+
+        Assert.assertSame(on, offSwitched);
+        Assert.assertSame(off, onSwitched);
+    }
+
+    @Test
+    public void testSwitchStatement()
+    {
+        OnOff on = OnOff.on();
+        switch (on.value())
         {
-            case OnOff.Values.On:
-                Assert.Pass();
+            case OnOff.onValue:
                 break;
             default:
-                Assert.Fail();
+                Assert.fail();
                 break;
         }
-        var off = OnOff.On;
-        switch (off.Value)
+        OnOff off = OnOff.off();
+        switch (off.value())
         {
-            case OnOff.Values.Off:
-                Assert.Pass();
+            case OnOff.offValue:
                 break;
             default:
-                Assert.Fail();
+                Assert.fail();
                 break;
         }
     }
-    [Test]
-    public void TestCastValueToByte()
-    {
-        var onValueAsByte = (byte)OnOff.On.Value;
-        var onValue = (OnOff.Values)onValueAsByte;
-        Assert.AreEqual(OnOff.On.Value, onValue);
-    }
-    [Test]
-    public void TestStates()
-    {
-        var states = OnOff.States;
-        Assert.NotNull(states);
 
-        var statesOn = states.SingleOrDefault(s => s == OnOff.On);
-        Assert.AreEqual(statesOn, OnOff.On);
+    @Test
+    public void testStates()
+    {
+        List<OnOff> states = OnOff.states();
+        Assert.assertNotNull(states);
 
-        var statesOff = states.SingleOrDefault(s => s == OnOff.Off);
-        Assert.AreEqual(statesOff, OnOff.Off);
+        OnOff statesOn = states.get(0);
+        Assert.assertSame(statesOn, OnOff.on());
+
+        OnOff statesOff = states.get(1);
+        Assert.assertSame(statesOff, OnOff.off());
     }
-    [Test]
+/*    [Test]
     public void TestExplicitCastFromValue()
     {
         var on = OnOff.On;
@@ -167,4 +161,5 @@ public class OnOffTest {
         Assert.AreEqual("Ligado", onDisplayText);
         Assert.AreEqual("Desligado", offDisplayText);
     }
-*/
+    */
+}
