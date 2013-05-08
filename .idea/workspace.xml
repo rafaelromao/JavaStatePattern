@@ -4,7 +4,7 @@
     <list default="true" id="37a45598-9606-4353-a283-9f1e2ba37c7a" name="Default" comment="" />
     <ignored path="JavaStatePattern.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/OnOff.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368048263980" ignored="false" />
+    <file path="/OnOff.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368048662573" ignored="false" />
     <file path="/Dummy.txt" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368046735823" ignored="false" />
     <file path="/fragment.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368047110011" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,6 +58,23 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOff.java" line="12" class="com.rafaelromao.javaStatePattern.javaEnum.OnOff$1" package="com.rafaelromao.javaStatePattern.javaEnum">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -67,19 +84,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OnOff.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="OnOff.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOff.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="45" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+            <state line="11" column="33" selection-start="255" selection-end="255" vertical-scroll-proportion="0.33392859">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnOff.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="OnOff.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OnOff.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="27" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.425">
+            <state line="56" column="27" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="n#!!doc;n#onValue#0;n#OnOff#0" expanded="false" />
@@ -129,10 +146,10 @@
         <option value="$PROJECT_DIR$/src/com/javaStatePattern/OnOff.java" />
         <option value="$PROJECT_DIR$/src/com/rafaelromao/OnOff.java" />
         <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/OnOff.java" />
-        <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOff.java" />
         <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OnOff.java" />
         <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OffState.java" />
         <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OnState.java" />
+        <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOff.java" />
       </list>
     </option>
   </component>
@@ -441,16 +458,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OnOff.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="27" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.425">
+        <state line="56" column="27" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="n#!!doc;n#onValue#0;n#OnOff#0" expanded="false" />
@@ -460,6 +470,13 @@
             <element signature="n#!!doc;n#_value#0;n#OnOff#0" expanded="false" />
             <element signature="n#!!doc;n#swtch#0;n#OnOff#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="33" selection-start="255" selection-end="255" vertical-scroll-proportion="0.33392859">
+          <folding />
         </state>
       </provider>
     </entry>
