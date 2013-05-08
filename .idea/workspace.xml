@@ -4,8 +4,9 @@
     <list default="true" id="37a45598-9606-4353-a283-9f1e2ba37c7a" name="Default" comment="" />
     <ignored path="JavaStatePattern.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/OnOff.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1367807457477" ignored="false" />
-    <file path="/Dummy.txt" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1367808047131" ignored="false" />
+    <file path="/OnOff.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368048263980" ignored="false" />
+    <file path="/Dummy.txt" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368046735823" ignored="false" />
+    <file path="/fragment.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368047110011" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +67,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OnOff.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/OnOff.java">
+      <file leaf-file-name="OnOff.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOff.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.33761683">
+            <state line="15" column="45" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnOff.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OnOff.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="27" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.425">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="n#!!doc;n#onValue#0;n#OnOff#0" expanded="false" />
+                <element signature="n#!!doc;n#_on#0;n#OnOff#0" expanded="false" />
+                <element signature="e#599#606#0" expanded="true" />
+                <element signature="n#!!doc;n#OnOff#0;n#OnOff#0" expanded="false" />
+                <element signature="n#!!doc;n#_value#0;n#OnOff#0" expanded="false" />
+                <element signature="n#!!doc;n#swtch#0;n#OnOff#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OffState.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OffState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="1" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnState.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OnState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="1" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,14 +129,18 @@
         <option value="$PROJECT_DIR$/src/com/javaStatePattern/OnOff.java" />
         <option value="$PROJECT_DIR$/src/com/rafaelromao/OnOff.java" />
         <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/OnOff.java" />
+        <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOff.java" />
+        <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OnOff.java" />
+        <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OffState.java" />
+        <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OnState.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="10" />
-    <option name="width" value="1900" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1040" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -128,6 +168,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,27 +205,59 @@
               <option name="myItemId" value="javaStatePattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaStatePattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaStatePattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaStatePattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaEnum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/Microsoft/Internet Explorer/Quick Launch/User Pinned/TaskBar/GitHub.appref-ms" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rafaelromao.javaStatePattern.poc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rafael\Documents\GitHub\JavaStatePattern\src\com\rafaelromao\javaStatePattern\poc" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -249,8 +323,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="10" width="1900" height="1040" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -260,11 +334,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972796" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24846625" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -333,18 +408,58 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/OnOff.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOff.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/OnOff.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOff.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.33761683">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OffState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="1" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OnState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="1" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="45" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OnOff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="27" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.425">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#onValue#0;n#OnOff#0" expanded="false" />
+            <element signature="n#!!doc;n#_on#0;n#OnOff#0" expanded="false" />
+            <element signature="e#599#606#0" expanded="true" />
+            <element signature="n#!!doc;n#OnOff#0;n#OnOff#0" expanded="false" />
+            <element signature="n#!!doc;n#_value#0;n#OnOff#0" expanded="false" />
+            <element signature="n#!!doc;n#swtch#0;n#OnOff#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

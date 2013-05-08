@@ -1,4 +1,4 @@
-package com.rafaelromao.javaStatePattern;
+package com.rafaelromao.javaStatePattern.javaEnum;
 
 public enum OnOff {
     ON {
