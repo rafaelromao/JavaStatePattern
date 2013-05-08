@@ -78,88 +78,12 @@ public class OnOffTest {
         OnOff statesOff = states.get(1);
         Assert.assertSame(statesOff, OnOff.off());
     }
-/*    [Test]
-    public void TestExplicitCastFromValue()
+    @Test
+    public void testDisplayText()
     {
-        var on = OnOff.On;
-        var onValue = OnOff.On.Value;
-        var onValueCastToOnOff = (OnOff)onValue;
-        Assert.AreEqual(on, onValueCastToOnOff);
+        String onDisplayText = OnOff.on().displayText();
+        String offDisplayText = OnOff.off().displayText();
+        Assert.assertSame("Ligado", onDisplayText);
+        Assert.assertSame("Desligado", offDisplayText);
     }
-    [Test]
-    public void TestImplicitCastFromValue()
-    {
-        var on = OnOff.On;
-        var onValue = OnOff.On.Value;
-        OnOff onValueCastToOnOff = onValue;
-        Assert.AreEqual(on, onValueCastToOnOff);
-    }
-    [Test]
-    public void TestExplicitCastToValue()
-    {
-        var on = OnOff.On;
-        var onValue = OnOff.On.Value;
-        var onCastToValue = (OnOff.Values)on;
-        Assert.AreEqual(onValue, onCastToValue);
-    }
-    [Test]
-    public void TestImplicitCastToValue()
-    {
-        var on = OnOff.On;
-        var onValue = OnOff.On.Value;
-        OnOff.Values onCastToValue = on;
-        Assert.AreEqual(onValue, onCastToValue);
-    }
-    [Test]
-    public void TestExplicitCastFromByte()
-    {
-        var on = OnOff.On;
-        var onValueAsByte = (byte)OnOff.On.Value;
-        var onValueAsByteCastToOnOff = (OnOff)onValueAsByte;
-        Assert.AreEqual(on, onValueAsByteCastToOnOff);
-    }
-    [Test]
-    public void TestImplicitCastFromByte()
-    {
-        var on = OnOff.On;
-        var onValueAsByte = (byte)OnOff.On.Value;
-        OnOff onValueAsByteCastToOnOff = onValueAsByte;
-        Assert.AreEqual(on, onValueAsByteCastToOnOff);
-    }
-    [Test]
-    public void TestExplicitCastToByte()
-    {
-        var on = OnOff.On;
-        var onValueAsByte = (byte)OnOff.On.Value;
-        var onCastToByte = (byte)on;
-        Assert.AreEqual(onValueAsByte, onCastToByte);
-    }
-    [Test]
-    public void TestImplicitCastToByte()
-    {
-        var on = OnOff.On;
-        var onValueAsByte = (byte)OnOff.On.Value;
-        byte onCastToByte = on;
-        Assert.AreEqual(onValueAsByte, onCastToByte);
-    }
-    [Test]
-    public void TestToString()
-    {
-        var onValueAsString = OnOff.Values.On.ToString();
-        var onStateAsString = OnOff.On.ToString();
-        Assert.AreEqual(onValueAsString, onStateAsString);
-
-        var offValueAsString = OnOff.Values.Off.ToString();
-        var offStateAsString = OnOff.Off.ToString();
-        Assert.AreEqual(offValueAsString, offStateAsString);
-    }
-    [Test]
-    public void TestDisplayText()
-    {
-        var onDisplayText = OnOff.On.DisplayText;
-        var offDisplayText = OnOff.Off.DisplayText;
-        Assert.AreEqual("Ligado", onDisplayText);
-        Assert.AreEqual("Desligado", offDisplayText);
-    }
-    */
 }

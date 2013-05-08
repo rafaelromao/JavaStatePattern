@@ -8,8 +8,8 @@
     <file path="/Dummy.txt" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368046735823" ignored="false" />
     <file path="/fragment.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368051506424" ignored="false" />
     <file path="/OnOffTest.groovy" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368050903439" ignored="false" />
-    <file path="/OnOffTest.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368052574346" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368052761377" ignored="false" />
+    <file path="/OnOffTest.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368053019267" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368053044923" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,10 +99,9 @@
       <file leaf-file-name="OnOff.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OnOff.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
+            <state line="8" column="29" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="n#!!doc;n#onValue#0;n#OnOff#0" expanded="false" />
                 <element signature="n#!!doc;n#_on#0;n#OnOff#0" expanded="false" />
                 <element signature="e#599#606#0" expanded="true" />
                 <element signature="n#!!doc;n#OnOff#0;n#OnOff#0" expanded="false" />
@@ -116,7 +115,7 @@
       <file leaf-file-name="OnOffTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/test/OnOffTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="22" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.35967302">
+            <state line="89" column="30" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.7411444">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#testOnIsOn#0;class#OnOffTest#0" expanded="false" />
@@ -334,7 +333,7 @@
       <recent name="C:\Users\Rafael\Documents\GitHub\JavaStatePattern\src\com\rafaelromao\javaStatePattern\poc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OnOffTest.testStates">
+  <component name="RunManager" selected="JUnit.OnOffTest">
     <configuration default="false" name="OnOffTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="JavaStatePattern" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -489,8 +488,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.OnOffTest.testStates" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.OnOffTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.OnOffTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OnOffTest.testStates" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.OnOffTest.testSwitchStatement" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.OnOffTest.testOnOffSwitches" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.OnOffTest.testOnIsOn" />
@@ -658,10 +657,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OnOff.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
+        <state line="8" column="29" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#onValue#0;n#OnOff#0" expanded="false" />
             <element signature="n#!!doc;n#_on#0;n#OnOff#0" expanded="false" />
             <element signature="e#599#606#0" expanded="true" />
             <element signature="n#!!doc;n#OnOff#0;n#OnOff#0" expanded="false" />
@@ -673,7 +671,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/test/OnOffTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="22" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.35967302">
+        <state line="89" column="30" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.7411444">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#testOnIsOn#0;class#OnOffTest#0" expanded="false" />
