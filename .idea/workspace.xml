@@ -6,10 +6,10 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/OnOff.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368048662573" ignored="false" />
     <file path="/Dummy.txt" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368046735823" ignored="false" />
-    <file path="/fragment.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368051506424" ignored="false" />
+    <file path="/fragment.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368053084960" ignored="false" />
     <file path="/OnOffTest.groovy" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368050903439" ignored="false" />
-    <file path="/OnOffTest.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368053019267" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368053044923" ignored="false" />
+    <file path="/OnOffTest.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368053404221" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368053474751" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,14 +115,20 @@
       <file leaf-file-name="OnOffTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/test/OnOffTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="30" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.7411444">
+            <state line="12" column="44" selection-start="345" selection-end="345" vertical-scroll-proportion="0.5558583">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#testOnIsOn#0;class#OnOffTest#0" expanded="false" />
-                <element signature="method#testOffIsOff#0;class#OnOffTest#0" expanded="false" />
-                <element signature="method#testOnIsNotOff#0;class#OnOffTest#0" expanded="false" />
-                <element signature="method#testOnOffSwitches#0;class#OnOffTest#0" expanded="false" />
-                <element signature="method#testSwitchStatement#0;class#OnOffTest#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnOffTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/test/OnOffTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOff.java" />
         <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/test/OnOffTest.groovy" />
         <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOffTest.java" />
+        <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/test/OnOffTest.java" />
         <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/test/OnOffTest.java" />
       </list>
     </option>
@@ -266,6 +273,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="poc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaStatePattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaStatePattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaStatePattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="javaEnum" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -327,6 +360,7 @@
       <recent name="com.rafaelromao.javaStatePattern.javaEnum.test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rafaelromao.javaStatePattern.poc.test" />
       <recent name="com.rafaelromao.javaStatePattern.poc" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -540,7 +574,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24846625" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -669,16 +703,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/test/OnOffTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/test/OnOffTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="30" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.7411444">
+        <state line="8" column="13" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#testOnIsOn#0;class#OnOffTest#0" expanded="false" />
-            <element signature="method#testOffIsOff#0;class#OnOffTest#0" expanded="false" />
-            <element signature="method#testOnIsNotOff#0;class#OnOffTest#0" expanded="false" />
-            <element signature="method#testOnOffSwitches#0;class#OnOffTest#0" expanded="false" />
-            <element signature="method#testSwitchStatement#0;class#OnOffTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/test/OnOffTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="44" selection-start="345" selection-end="345" vertical-scroll-proportion="0.5558583">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

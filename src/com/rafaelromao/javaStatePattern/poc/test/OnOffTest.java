@@ -1,38 +1,40 @@
-package com.rafaelromao.javaStatePattern.javaEnum.test;
+package com.rafaelromao.javaStatePattern.poc.test;
 
-import com.rafaelromao.javaStatePattern.javaEnum.OnOff;
+import com.rafaelromao.javaStatePattern.poc.OnOff;
 import org.junit.Assert;
 import org.junit.Test;
+
+import java.util.List;
 
 public class OnOffTest {
     @Test
     public void testOnIsOn() throws Exception
     {
-        OnOff on1 = OnOff.ON;
-        OnOff on2 = OnOff.ON;
+        OnOff on1 = OnOff.on();
+        OnOff on2 = OnOff.on();
         Assert.assertSame(on1, on2);
     }
 
     @Test
     public void testOffIsOff()
     {
-        OnOff off1 = OnOff.OFF;
-        OnOff off2 = OnOff.OFF;
+        OnOff off1 = OnOff.off();
+        OnOff off2 = OnOff.off();
         Assert.assertSame(off1, off2);
     }
     @Test
     public void testOnIsNotOff()
     {
-        OnOff on = OnOff.ON;
-        OnOff off = OnOff.OFF;
+        OnOff on = OnOff.on();
+        OnOff off = OnOff.off();
         Assert.assertNotSame(on, off);
     }
 
     @Test
     public void testOnOffSwitches()
     {
-        OnOff on = OnOff.ON;
-        OnOff off = OnOff.OFF;
+        OnOff on = OnOff.on();
+        OnOff off = OnOff.off();
 
         OnOff onSwitched = on.swtch();
         OnOff offSwitched = off.swtch();
@@ -44,19 +46,19 @@ public class OnOffTest {
     @Test
     public void testSwitchStatement()
     {
-        OnOff on = OnOff.ON;
-        switch (on)
+        OnOff on = OnOff.on();
+        switch (on.value())
         {
-            case ON:
+            case OnOff.onValue:
                 break;
             default:
                 Assert.fail();
                 break;
         }
-        OnOff off = OnOff.OFF;
-        switch (off)
+        OnOff off = OnOff.off();
+        switch (off.value())
         {
-            case OFF:
+            case OnOff.offValue:
                 break;
             default:
                 Assert.fail();
@@ -67,20 +69,20 @@ public class OnOffTest {
     @Test
     public void testStates()
     {
-        OnOff[] states = OnOff.values();
+        List<OnOff> states = OnOff.states();
         Assert.assertNotNull(states);
 
-        OnOff statesOn = states[0];
-        Assert.assertSame(statesOn, OnOff.ON);
+        OnOff statesOn = states.get(0);
+        Assert.assertSame(statesOn, OnOff.on());
 
-        OnOff statesOff = states[1];
-        Assert.assertSame(statesOff, OnOff.OFF);
+        OnOff statesOff = states.get(1);
+        Assert.assertSame(statesOff, OnOff.off());
     }
     @Test
     public void testDisplayText()
     {
-        String onDisplayText = OnOff.ON.displayText();
-        String offDisplayText = OnOff.OFF.displayText();
+        String onDisplayText = OnOff.on().displayText();
+        String offDisplayText = OnOff.off().displayText();
         Assert.assertSame("Ligado", onDisplayText);
         Assert.assertSame("Desligado", offDisplayText);
     }
