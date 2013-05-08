@@ -6,7 +6,10 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/OnOff.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368048662573" ignored="false" />
     <file path="/Dummy.txt" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368046735823" ignored="false" />
-    <file path="/fragment.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368047110011" ignored="false" />
+    <file path="/fragment.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368051506424" ignored="false" />
+    <file path="/OnOffTest.groovy" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368050903439" ignored="false" />
+    <file path="/OnOffTest.java" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368051421126" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="37a45598-9606-4353-a283-9f1e2ba37c7a" time="1368051547954" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,10 +87,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OnOff.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="OnOff.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOff.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="33" selection-start="255" selection-end="255" vertical-scroll-proportion="0.33392859">
+            <state line="2" column="15" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,7 +99,7 @@
       <file leaf-file-name="OnOff.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OnOff.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="27" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
+            <state line="56" column="0" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="n#!!doc;n#onValue#0;n#OnOff#0" expanded="false" />
@@ -105,6 +108,17 @@
                 <element signature="n#!!doc;n#OnOff#0;n#OnOff#0" expanded="false" />
                 <element signature="n#!!doc;n#_value#0;n#OnOff#0" expanded="false" />
                 <element signature="n#!!doc;n#swtch#0;n#OnOff#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnOffTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/test/OnOffTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="22" selection-start="214" selection-end="214" vertical-scroll-proportion="0.3705722">
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,6 +164,9 @@
         <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OffState.java" />
         <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OnState.java" />
         <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOff.java" />
+        <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/test/OnOffTest.groovy" />
+        <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOffTest.java" />
+        <option value="$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/test/OnOffTest.java" />
       </list>
     </option>
   </component>
@@ -249,12 +266,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaStatePattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaStatePattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaStatePattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaEnum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="MemberChooser.sorted" value="false" />
@@ -262,13 +306,22 @@
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/Microsoft/Internet Explorer/Quick Launch/User Pinned/TaskBar/GitHub.appref-ms" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.rafaelromao.javaStatePattern.javaEnum" />
+      <recent name="com.rafaelromao.javaStatePattern.javaEnum.test" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.rafaelromao.javaStatePattern.poc" />
     </key>
@@ -276,7 +329,7 @@
       <recent name="C:\Users\Rafael\Documents\GitHub\JavaStatePattern\src\com\rafaelromao\javaStatePattern\poc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.OnOffTest.testOnIsOn">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.rafaelromao.Main" />
@@ -290,6 +343,50 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="JavaStatePattern" />
       <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="OnOffTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="JavaStatePattern" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.rafaelromao.javaStatePattern.javaEnum.test" />
+      <option name="MAIN_CLASS_NAME" value="com.rafaelromao.javaStatePattern.javaEnum.test.OnOffTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="OnOffTest.testOnIsOn" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="JavaStatePattern" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.rafaelromao.javaStatePattern.javaEnum.test" />
+      <option name="MAIN_CLASS_NAME" value="com.rafaelromao.javaStatePattern.javaEnum.test.OnOffTest" />
+      <option name="METHOD_NAME" value="testOnIsOn" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -309,9 +406,37 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.OnOffTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.OnOffTest.testOnIsOn" />
     </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.OnOffTest.testOnIsOn" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OnOffTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
@@ -357,7 +482,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24846625" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -458,9 +583,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOffTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="15" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/poc/OnOff.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="27" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
+        <state line="56" column="0" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="n#!!doc;n#onValue#0;n#OnOff#0" expanded="false" />
@@ -473,10 +612,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/OnOff.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rafaelromao/javaStatePattern/javaEnum/test/OnOffTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="255" selection-end="255" vertical-scroll-proportion="0.33392859">
-          <folding />
+        <state line="8" column="22" selection-start="214" selection-end="214" vertical-scroll-proportion="0.3705722">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
